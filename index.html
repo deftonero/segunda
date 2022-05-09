@@ -5,25 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto VUE web components - Pablo Bustos</title>
-    <script src="./app.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./app.js" defer></script>
+
+    <link rel="stylesheet" href="estilo.css" />
   </head>
   <body>
     <div id="app">
-      <p>{{cuenta}}</p>
-      <!-- <table>
-        <thead>
-          <tr v-for="(i, index) in titulos" :key="i">
-            <td>{{i}}</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>d</td>
-            <td>d</td>
-          </tr>
-        </tbody>
-      </table> -->
+      <encabezado :class="titulo" />
+      <tabla/>
     </div>
   </body>
 </html>

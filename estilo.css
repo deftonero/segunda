@@ -1,0 +1,14 @@
+.FondoGris {
+  background-color: #f5f5f5;
+}
+.FondoNegro {
+  background-color: #000000;
+}
+.letraBlanca {
+  color: #ffffff;
+}
+.textoTitulo{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
